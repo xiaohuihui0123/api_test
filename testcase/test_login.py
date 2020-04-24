@@ -1,7 +1,7 @@
 """
 北京-漠雪殇-27
 """
-
+from HTMLTestRunnerNew import HTMLTestRunner
 import unittest
 from common.handle_excel import Excel_Hande
 from library.myddt import ddt,data

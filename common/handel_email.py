@@ -15,7 +15,7 @@ class Email_smtp:
     @staticmethod
     def email():
 
-        # 连接smtp服务
+        # 连接s mtp服务
         smtp = smtplib.SMTP_SSL(host='smtp.qq.com',port=465)
         # 登录
         smtp.login(user=conf.get('smtp','user'),password=conf.get('smtp','password'))

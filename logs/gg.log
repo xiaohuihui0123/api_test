@@ -4145,3 +4145,69 @@ AssertionError: 20 != 10
 2020-04-14 19:28:36,531 -- [test_invest.py-->line:63] - INFO: 用例投资人id为空通过
 2020-04-14 19:28:36,782 -- [test_invest.py-->line:63] - INFO: 用例标id为空通过
 2020-04-14 19:28:37,046 -- [test_invest.py-->line:63] - INFO: 用例投资金额为空通过
+2020-04-22 19:00:04,703 -- [test_invest.py-->line:63] - INFO: 用例借款人正常登录通过
+2020-04-22 19:00:05,085 -- [test_invest.py-->line:63] - INFO: 用例借款人加标通过
+2020-04-22 19:00:05,537 -- [test_invest.py-->line:63] - INFO: 用例管理员正常登录通过
+2020-04-22 19:00:05,868 -- [test_invest.py-->line:63] - INFO: 用例管理员审核通过
+2020-04-22 19:00:06,434 -- [test_invest.py-->line:63] - INFO: 用例投资人正常登录通过
+2020-04-22 19:00:06,770 -- [test_invest.py-->line:63] - INFO: 用例充值成功-整数通过
+2020-04-22 19:00:07,083 -- [test_invest.py-->line:63] - INFO: 用例投资人正常投资通过
+2020-04-22 19:00:07,352 -- [test_invest.py-->line:63] - INFO: 用例投资人id为空通过
+2020-04-22 19:00:07,619 -- [test_invest.py-->line:63] - INFO: 用例标id为空通过
+2020-04-22 19:00:07,870 -- [test_invest.py-->line:63] - INFO: 用例投资金额为空通过
+2020-04-22 19:01:02,268 -- [test_login.py-->line:45] - INFO: 用例登录成功执行通过
+2020-04-22 19:01:02,537 -- [test_login.py-->line:38] - ERROR: 用例手机号为空没有通过，错误等级为error
+2020-04-22 19:01:02,537 -- [test_login.py-->line:39] - DEBUG: 预期结果{'code': 1, 'msg': '手机号码为空'}
+2020-04-22 19:01:02,537 -- [test_login.py-->line:40] - DEBUG: 实际结果{'code': 2, 'msg': '手机号码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-22 19:01:02,538 -- [test_login.py-->line:41] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "E:\pycharm_new\api_test\testcase\test_login.py", line 35, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\python\lib\unittest\case.py", line 821, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python\lib\unittest\case.py", line 814, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-04-22 19:01:02,953 -- [test_login.py-->line:38] - ERROR: 用例密码为空没有通过，错误等级为error
+2020-04-22 19:01:02,954 -- [test_login.py-->line:39] - DEBUG: 预期结果{'code': 1, 'msg': '密码为空'}
+2020-04-22 19:01:02,954 -- [test_login.py-->line:40] - DEBUG: 实际结果{'code': 2, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-22 19:01:02,954 -- [test_login.py-->line:41] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "E:\pycharm_new\api_test\testcase\test_login.py", line 35, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\python\lib\unittest\case.py", line 821, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python\lib\unittest\case.py", line 814, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-04-22 19:01:03,410 -- [test_login.py-->line:45] - INFO: 用例手机号未注册执行通过
+2020-04-22 19:01:03,881 -- [test_login.py-->line:45] - INFO: 用例密码错误执行通过
+2020-04-22 19:01:04,164 -- [test_login.py-->line:45] - INFO: 用例手机号格式错误执行通过
+2020-04-23 13:07:51,427 -- [test_login.py-->line:45] - INFO: 用例登录成功执行通过
+2020-04-23 13:07:51,818 -- [test_login.py-->line:38] - ERROR: 用例手机号为空没有通过，错误等级为error
+2020-04-23 13:07:51,818 -- [test_login.py-->line:39] - DEBUG: 预期结果{'code': 1, 'msg': '手机号码为空'}
+2020-04-23 13:07:51,818 -- [test_login.py-->line:40] - DEBUG: 实际结果{'code': 2, 'msg': '手机号码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-23 13:07:51,818 -- [test_login.py-->line:41] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "E:\pycharm_new\api_test\testcase\test_login.py", line 35, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\python\lib\unittest\case.py", line 821, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python\lib\unittest\case.py", line 814, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-04-23 13:07:52,159 -- [test_login.py-->line:38] - ERROR: 用例密码为空没有通过，错误等级为error
+2020-04-23 13:07:52,160 -- [test_login.py-->line:39] - DEBUG: 预期结果{'code': 1, 'msg': '密码为空'}
+2020-04-23 13:07:52,160 -- [test_login.py-->line:40] - DEBUG: 实际结果{'code': 2, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-23 13:07:52,160 -- [test_login.py-->line:41] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "E:\pycharm_new\api_test\testcase\test_login.py", line 35, in test_login
+    self.assertEqual(expected['code'],res['code'])
+  File "D:\python\lib\unittest\case.py", line 821, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python\lib\unittest\case.py", line 814, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-04-23 13:07:52,488 -- [test_login.py-->line:45] - INFO: 用例手机号未注册执行通过
+2020-04-23 13:07:52,812 -- [test_login.py-->line:45] - INFO: 用例密码错误执行通过
+2020-04-23 13:07:53,117 -- [test_login.py-->line:45] - INFO: 用例手机号格式错误执行通过
